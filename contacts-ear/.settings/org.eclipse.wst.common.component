@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="contacts-ear-1.0.0-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="fr.3il.tp-contacts-ejb-1.0.0-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/contacts-ejb/contacts-ejb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.mapstruct-mapstruct-1.5.5.Final.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fr.3il.tp-contacts-commun-1.0.0-SNAPSHOT.jar" deploy-path="/lib" handle="module:/resource/contacts-commun/contacts-commun">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
